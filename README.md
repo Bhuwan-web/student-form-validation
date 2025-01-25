@@ -20,5 +20,9 @@ This is an enhanced student form validation system built using Java servlets, Bo
 - Maven (for building the project)
 - JDK 11 or later
 
-## Project Structure
+# RUN Project in docker
+
+`docker build -t studentformvalidation2:latest .`
+
+`docker run --rm -it -p 8080:8080/tcp studentformvalidation2:latest`
 
